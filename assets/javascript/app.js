@@ -41,7 +41,7 @@ $(document).ready(function () {
   // Call to API
   function displayInfo() {
   var office = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + office + "&api_key=0X4hj4vheUvjJrIj7iXzqcfjylEXoZKa";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + office + "&api_key=0X4hj4vheUvjJrIj7iXzqcfjylEXoZKa";
 
   $.ajax({
     url: queryURL,
